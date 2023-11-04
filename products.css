@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#sidebar {
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+#content {
+  margin-left: 220px;
+  padding: 20px;
+}
+.category-button {
+  display: block;
+  background-color: #a41010;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  text-align: left;
+  text-decoration: none;
+}
+.category-button:hover {
+  background-color: #777;
+}
+
+
+input {
+  font-family: "Roboto", sans-serif;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around
+}
+.product{
+  width: 250px;
+   height: 250px;
+    border:2px solid black;
+    margin: 10px;
+    box-shadow: inset rgb(61, 60, 60);
+    background-size: cover;
+    background-position: center;
+}
+.pro{
+  width: 400px;
+   height: 400px;
+    border:2px solid black;
+    margin: 10px;
+    box-shadow: inset rgb(51, 48, 48);
+   
+}
+.div{
+  flex-basis: 100%;
+  align-items: center;
+}
+.content {
+  position:relative ;
+    font-size: 20px;
+    font-weight: bolder;
+    flex-direction:row;
+}
+.btn
+{
+    padding: 0.6rem 1.3rem;
+    background-color: #000000;
+    border: 2px solid #000000;
+    font-size: 0.95rem;
+    color: #ffffff;
+    line-height: 1;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0;
+    margin-top: 10px;
+}
+  
+.btn:hover
+{
+    background-color: transparent;
+    color: rgb(54, 1, 1);
+}

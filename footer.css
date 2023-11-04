@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body
+{
+    line-height:1.5;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+footer
+{
+    background-color:black;  
+    padding: 40px  0;
+    position:relative;
+    
+  
+    
+}
+
+
+.coulumn
+{
+    max-width:1170px;
+    margin-top:-5%;
+    margin-bottom: 2%;
+
+}
+
+.copyright p
+{
+    color:white;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: -5%;
+    margin-top: 5%;
+}
+
+.row
+{
+    display:flex;
+    flex-wrap:wrap;
+    margin-left: 3%;
+    
+
+}
+
+
+
+ul
+{
+    list-style:none;
+}
+
+.clm 
+{
+    flex-basis:25%;
+    padding: 0 15px;
+
+
+}
+
+.clm h4
+{
+    font-size:18 px;
+    color:#ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight:500;
+    position:relative;
+    margin-top:20px;
+    
+
+}
+
+.clm h4::before
+{
+content:'';
+position: absolute;
+left:0;
+bottom:-10px;
+height:2px;
+box-sizing:border-box;
+width: 50px;
+}
+
+.clm ul li:not(:last-child){
+    margin-bottom: 10px;
+    
+
+}
+
+.clm ul li a
+{
+    font-size:14px;
+    text-transform:capitalize;
+    color:#ffffff;
+    text-decoration:none;
+    font-weight:300;
+    color:#bbbbbb;
+    display:block;
+    transition: all 0.3s ease;
+}
+
+
+.clm ul li a:hover
+{
+    color:#ffffff;
+    padding-left:8px;
+
+}
+
+
+.clm get-in-touch a
+{
+   color:white;
+   font-size: 200px;
+}
+
+.socialmedia
+{
+    float: right;
+    margin-right: 12px;
+
+    
+}
+  .socialmedia a
+{
+    display:inline-block;
+    height:40px;
+    width:40px;
+    background-color: white;
+    margin: 45% 10px 10px 0;
+    text-align:center;
+    line-height :40px;
+    border-radius:50%;
+    color:black;
+    transition: all 0.5s ease;
+    position: relative;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    
+
+}
+
+.socialmedia a:hover 
+{
+    
+    background-color:rgb(1, 42, 1);
+    
+}
+
+/*responsive*/
+@media(max-width: 768px)
+{
+    .clm 
+    {
+        width:50%;
+        margin-bottom:30px;
+        
+    }
+}
+
+@media(max-width: 574px)
+{
+    .clm 
+    {
+        width:100%;
+        
+    }
+}
+
+
+
+
+
+.btn-solid
+{
+    padding: 0.6rem 1.3rem;
+    background-color: #fff;
+    border: 2px solid #fafafa;
+    font-size: 0.95rem;
+    color: black;
+    line-height: 1;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0;
+    margin-top: 10px;
+
+}
+  
+.btn-solid:hover
+{
+    background-color: transparent;
+    color:rgb(1, 42, 1);
+
+
+}
+
+
